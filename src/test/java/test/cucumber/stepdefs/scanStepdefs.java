@@ -103,6 +103,16 @@ public class scanStepdefs {
 
     @When("I view the details of a product")
     public void productDetails(){
+        scanPageObjects.NavigateToProductDetails();
+    }
 
+    @And("I choose to buy the product")
+    public void buyItem(){
+        scanPageObjects.addProductToCart();
+    }
+
+    @Then("my shopping cart should contain 1 item")
+    public void shoppingCartCheck(){
+        assertTrue(scanPageObjects.doesCartContainSingleItem());
     }
 }

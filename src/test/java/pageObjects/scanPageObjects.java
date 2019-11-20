@@ -28,14 +28,14 @@ public class scanPageObjects {
 
     }
     public void goToHomePage() throws MalformedURLException, InterruptedException {
-        webXDriver.navigate().to(new URL(scanLocators.SCAN_HOME_URL));
+        webXDriver.navigate().to(scanLocators.SCAN_HOME_URL);
 //        webXDriver.sleep(150);
         closeModal();
 //        webXDriver.wait(500);
     }
 
     public void goToLoginPage() throws MalformedURLException, InterruptedException {
-        webXDriver.navigate().to(new URL(scanLocators.SCAN_LOGIN_URL));
+        webXDriver.navigate().to(scanLocators.SCAN_LOGIN_URL);
 //        webXDriver.wait(150);
         closeModal();
 //        webXDriver.wait(500);
@@ -90,6 +90,18 @@ public class scanPageObjects {
             webXDriver.navigate().to(scanLocators.SCAN_HOME_URL);
 
         }
+    }
+
+    public void NavigateToProductDetails(){
+        webXDriver.navigate().to(scanLocators.SCAN_PRODUCT_DETAILS_URL);
+    }
+
+    public void addProductToCart(){
+        webXDriver.findElement(By.id(scanLocators.ADD_TO_CART_ID)).click();
+    }
+
+    public boolean doesCartContainSingleItem(){
+        return webXDriver.findElement(By.className(scanLocators.TR_LIST_EVEN_PRODUCT_CLASS)).isDisplayed();
     }
 
 
