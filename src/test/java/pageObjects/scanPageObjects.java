@@ -57,5 +57,25 @@ public class scanPageObjects {
         return currentUrl.equals(accountURL);
     }
 
+    public void searchForProduct(String product2SearchFor){
+        WebElement searchInputField = webXDriver.findElement(By.id(scanLocators.SEARCH_BAR_ID));
+        searchInputField.sendKeys(product2SearchFor);
+        searchInputField.sendKeys(Keys.RETURN);
+        webXDriver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+    }
+
+    public List<WebElement> getListOfAllProducts(){
+        return webXDriver.findElements(By.className(scanLocators.PRODUICT_LI_SINGLE_CLASS));
+    }
+
+    public void getNClickFirstProduct(){
+        WebElement firstProduct = getListOfAllProducts().get(1);
+        firstProduct.click();
+        webXDriver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+    }
+
+    public boolean verifyProductPage(){
+        return webXDriver.findElements(By.className(scanLocators.PRODUCT_PAGE_CONTAINERR_CLASS)).size() != 0;
+    }
 }
 

@@ -70,8 +70,17 @@ public class scanStepdefs {
     public void loggedInUser(){
         loginCorrect();
     }
-    @When(" I search for a product")
+    @When("I search for a product")
     public void searchForAProduct(){
+        scanPageObjects.searchForProduct(PRODUCT_TO_SEARCH);
+    }
+    @And("I select the first product in the list")
+    public void selectFirstProduct(){
+        scanPageObjects.getNClickFirstProduct();
+    }
 
+    @Then("I should see the product details")
+    public void verifyProductDetails(){
+        assertTrue(scanPageObjects.verifyProductPage());
     }
 }
