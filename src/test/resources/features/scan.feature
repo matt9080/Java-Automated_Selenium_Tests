@@ -1,4 +1,5 @@
 Feature: scan
+
   Scenario: 1 Valid Login
     Given I am a user on the website
     When I log in using valid credentials
@@ -16,7 +17,7 @@ Feature: scan
     And I select the first product in the list
     Then I should see the product details
 
-  Scenario 4: Add product to cart
+  Scenario: 4 Add product to cart
     Given I am a logged in user on the website
     And my shopping cart is empty
     When I view the details of a product

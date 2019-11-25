@@ -42,77 +42,36 @@ public class scanStepdefs {
     }
 
     @Given("I am a user on the website")
-    public void userOnSite()  {
-        try {
-            scanPageObjects.goToHomePage();
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
+    public void userOnSite(){
+        scanPageObjects.navigateToHome();
     }
 
     @When("I log in using valid credentials")
-    public void loginValid() throws MalformedURLException, InterruptedException {
-        scanPageObjects.goToLoginPage();
-        scanPageObjects.login(EMAIL_VALID,PASSWORD_VALID);
+    public void loginCorrect(){
+        scanPageObjects.Login(EMAIL_VALID,PASSWORD_VALID);
     }
 
     @Then("I should be logged in")
-    public void loginVerification(){
-        assertTrue(scanPageObjects.isUserCorrectlyLoggedIn());
-        scanPageObjects.quit();
+    public void verifyLogin(){
+        assertTrue(scanPageObjects.loginURLCheck());
     }
-    @Then("I should not be logged in")
-    public void incorrectLoginCheck(){
-        assertTrue(scanPageObjects.incorrectLoginVerification());
-    }
+
     @When("I log in using invalid credentials")
-    public void loginInvalid() throws InterruptedException {
-        scanPageObjects.login(EMAIL_INVALID,PASSWORD_INVALID);
+    public void loginIncorrect(){
+        scanPageObjects.Login(EMAIL_INVALID,PASSWORD_INVALID);
+    }
+
+    @Then("I should not be logged in")
+    public void verifyLoginIncorrect(){
+        assertTrue(scanPageObjects.loginInvalidURLCheck());
     }
 
     @Given("I am a logged in user on the website")
-    public void loggedInUserOnSire() throws MalformedURLException, InterruptedException {
-        scanPageObjects.goToLoginPage();
-        scanPageObjects.login(EMAIL_VALID,PASSWORD_VALID);
-        scanPageObjects.goToHomePage();
+    public void loggedInUser(){
+        loginCorrect();
     }
+    @When(" I search for a product")
+    public void searchForAProduct(){
 
-    @When("I search for a product")
-    public void productSearch(){
-        scanPageObjects.searchProduct(PRODUCT_TO_SEARCH);
-    }
-
-    @And("I select the first product in the list")
-    public void selectProduct() throws InterruptedException {
-        scanPageObjects.getFirstProduct().click();
-    }
-
-    @Then("I should see the product details")
-    public void verifyProductDetails() {
-        assertTrue(scanPageObjects.isProductPage());
-        scanPageObjects.quit();
-    }
-
-    @And("my shopping cart is empty")
-    public void shoppingCartEmpty(){
-        scanPageObjects.isCartEmpty();
-    }
-
-    @When("I view the details of a product")
-    public void productDetails(){
-        scanPageObjects.NavigateToProductDetails();
-    }
-
-    @And("I choose to buy the product")
-    public void buyItem(){
-        scanPageObjects.addProductToCart();
-    }
-
-    @Then("my shopping cart should contain 1 item")
-    public void shoppingCartCheck(){
-        assertTrue(scanPageObjects.doesCartContainSingleItem());
     }
 }

@@ -11,7 +11,7 @@ public class scanLocators {
 
     // IDS
     // LOGIN
-//    final String LOGIN_EMAIL_ID = "email";
+    final String LOGIN_EMAIL_ID = "email";
     final String LOGIN_PASSWORD_ID = "pass";
     final String LOGIN_SUBMIT_BUTTON = "send2";
     final String INCORRECT_EMAIL_NOTIFICATION = "advice-validate-email-email";
@@ -29,7 +29,6 @@ public class scanLocators {
 
     //CLASS
     //SEARCH
-    final String LOGIN_EMAIL_ID = "    validate-email\n";
 
     final String PRODUICT_LI_SINGLE_CLASS = "item isotope-item";
     //PRODUCT PAGE
