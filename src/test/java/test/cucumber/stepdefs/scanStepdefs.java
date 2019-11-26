@@ -83,4 +83,26 @@ public class scanStepdefs {
     public void verifyProductDetails(){
         assertTrue(scanPageObjects.verifyProductPage());
     }
+
+    @And("my shopping cart is empty")
+    public void isCartEmpty(){
+        scanPageObjects.navigateToCart();
+        scanPageObjects.ifCartEmpty();
+    }
+
+    @When("I view the details of a product")
+    public void viewProductDetails(){
+        scanPageObjects.navigateToProduct();
+    }
+
+    @And("I choose to buy the product")
+    public void buyProduct(){
+        scanPageObjects.addProductToCart();
+    }
+
+    @Then("my shopping cart should contain 1 item")
+    public void cartShouldContainSingleItem(){
+        assertTrue(scanPageObjects.checkIfCartContainsSingleItem());
+    }
+
 }

@@ -75,7 +75,40 @@ public class scanPageObjects {
     }
 
     public boolean verifyProductPage(){
-        return webXDriver.findElements(By.className(scanLocators.PRODUCT_PAGE_CONTAINERR_CLASS)).size() != 0;
+        int productPageSize = webXDriver.findElements(By.className(scanLocators.PRODUCT_PAGE_CONTAINERR_CLASS)).size();
+        webXDriver.quit();
+        return productPageSize != 0;
     }
+
+    public void navigateToCart(){
+        webXDriver.navigate().to(scanLocators.SCAN_SHOPPING_CART_URL);
+        webXDriver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+    }
+
+    public void ifCartEmpty() {
+        if(!webXDriver.getPageSource().contains("You have no items in your shopping cart.")){
+            webXDriver.findElement(By.id(scanLocators.SHOPPING_CART_EMPTY_ID)).click();
+            webXDriver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+        }
+    }
+
+    public void navigateToProduct(){
+        webXDriver.navigate().to(scanLocators.SCAN_PRODUCT_DETAILS_URL);
+        webXDriver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+    }
+
+    public void addProductToCart(){
+        webXDriver.findElement(By.id(scanLocators.ADD_TO_CART_ID)).click();
+        webXDriver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+    }
+
+    public boolean checkIfCartContainsSingleItem(){
+       WebElement tableElement = webXDriver.findElement(By.id("shopping-cart-table"));
+       int tableSize = tableElement.findElement(By.tagName("tbody")).findElements(By.tagName("tr")).size();
+       webXDriver.quit();
+       return  tableSize == 1;
+    }
+
+
 }
 

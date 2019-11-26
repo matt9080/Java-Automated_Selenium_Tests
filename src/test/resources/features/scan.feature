@@ -10,13 +10,14 @@ Feature: scan
     When I log in using invalid credentials
     Then I should not be logged in
 
-  @test
+
   Scenario: 3 Product Search
     Given I am a logged in user on the website
     When I search for a product
     And I select the first product in the list
     Then I should see the product details
 
+  @test
   Scenario: 4 Add product to cart
     Given I am a logged in user on the website
     And my shopping cart is empty

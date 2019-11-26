@@ -29,7 +29,6 @@ public class scanLocators {
 
     //CLASS
     //SEARCH
-
     final String PRODUICT_LI_SINGLE_CLASS = "product-image";
     //PRODUCT PAGE
     final String PRODUCT_PAGE_CONTAINERR_CLASS = "product-essential";
