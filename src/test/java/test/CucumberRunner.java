@@ -10,6 +10,7 @@ import org.junit.runner.RunWith;
         ,features="src/test/resources/features/scan.feature"
         ,glue="test.cucumber.stepdefs"
 //        ,tags = "@test"
+        // Commented out line tags, allows user to test individual scenarios by adding a tag to said scenario.
     )
 
 public class CucumberRunner {

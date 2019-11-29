@@ -1,11 +1,14 @@
 package pageObjects;
 
 public class scanLocators {
-
+    /*
+    This class contains a list of Strings which will be used to find various elements during testing,
+    The different Strings are categorized by type, being URLS, IDS and Classes.
+    Within each categorization there is further sorting, where Strings are sorted based on the page they are found in.
+     */
     // URLS
     final String SCAN_HOME_URL = "https://www.scanmalta.com/newstore/";
     final String SCAN_LOGIN_URL = "https://www.scanmalta.com/newstore/customer/account/login/";
-    final String SCAN_LOGGED_IN_DASHBOARD = "https://www.scanmalta.com/newstore/customer/account/index/";
     final String SCAN_SHOPPING_CART_URL = "https://www.scanmalta.com/newstore/checkout/cart/";
     final String SCAN_PRODUCT_DETAILS_URL = "https://www.scanmalta.com/newstore/microsoft-surface-pro-7-123-win10-pro-core-i3-128gb-ssd-4gb-platinum-tablet.html";
     final String SCAN_SEARCH_PRODUCT_URL = "https://www.scanmalta.com/newstore/catalogsearch/result/?q=apple";
@@ -15,12 +18,10 @@ public class scanLocators {
     final String LOGIN_EMAIL_ID = "email";
     final String LOGIN_PASSWORD_ID = "pass";
     final String LOGIN_SUBMIT_BUTTON = "send2";
-    final String INCORRECT_EMAIL_NOTIFICATION = "advice-validate-email-email";
-    final String INCORRECT_PASSWORD_NOTIFICATION = "advice-validate-password-pass";
+    final String MODAL_ID = "exitintent-popup";
 
     // SEARCH
     final String SEARCH_BAR_ID = "search";
-    final String PRODUCT_UL_CONTAINER_ID = "catalog-listing";
 
     //PRODUCT DETAILS
     final String ADD_TO_CART_ID = "product-addtocart-button";
@@ -36,8 +37,4 @@ public class scanLocators {
     final String PRODUCT_PAGE_CONTAINERR_CLASS = "product-essential";
     // MODAL
     final String MODAL_CLOSE_CLASS = "close-reveal-modal";
-    // CART
-    final String SHOPPING_CART_EMPTY = "cart-empty";
-    final String TR_LIST_EVEN_PRODUCT_CLASS = "even";
-
 }

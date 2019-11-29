@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/test/java/pageObjects/scanPageObjects.java" line="60" />
+    <bookmark url="file://$PROJECT_DIR$/src/test/java/pageObjects/scanPageObjects.java" line="59" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a1fbe82-c96b-4bd6-8e55-ca1dd8832964" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/matt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/matt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/scanLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/scanLocators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/scanPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/scanPageObjects.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/CucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/CucumberRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/cucumber/stepdefs/scanStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/cucumber/stepdefs/scanStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/scan.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/scan.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/scan.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/scan.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjects/scanLocators.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjects/scanLocators.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjects/scanPageObjects.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjects/scanPageObjects.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/CucumberRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/CucumberRunner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/test/cucumber/stepdefs/scanStepdefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/cucumber/stepdefs/scanStepdefs.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/scan.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+            <state relative-caret-position="874">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -38,15 +38,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/cucumber/stepdefs/scanStepdefs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="107" selection-start-line="107" selection-end-line="107" />
+            <state relative-caret-position="1932">
+              <caret line="105" selection-start-line="105" selection-end-line="105" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1359#1360#0" expanded="true" />
-                <element signature="e#1424#1425#0" expanded="true" />
-                <element signature="e#1633#1634#0" expanded="true" />
-                <element signature="e#1702#1703#0" expanded="true" />
-                <element signature="e#3127#3128#0" expanded="true" />
+                <element signature="e#2597#2598#0" expanded="true" />
+                <element signature="e#2671#2672#0" expanded="true" />
+                <element signature="e#2744#2745#0" expanded="true" />
+                <element signature="e#2837#2838#0" expanded="true" />
+                <element signature="e#3539#3540#0" expanded="true" />
+                <element signature="e#3616#3617#0" expanded="true" />
+                <element signature="e#3687#3688#0" expanded="true" />
+                <element signature="e#3762#3763#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,40 +58,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/scanPageObjects.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="119" column="5" lean-forward="true" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
+            <state relative-caret-position="790">
+              <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#702#703#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/4.2.6/cucumber-core-4.2.6.jar!/cucumber/runtime/Utils.class">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/scanLocators.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/4.2.6/cucumber-core-4.2.6.jar!/cucumber/runner/PickleStepDefinitionMatch.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/4.2.6/cucumber-core-4.2.6.jar!/cucumber/runner/TestStep.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="138">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -96,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/CucumberRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="230">
+              <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,6 +112,7 @@
       <find>scanPageObjects.Login</find>
       <find>shopping-cart-table</find>
       <find>EMPTY</find>
+      <find>MODAL_CLOSE_CLASS</find>
     </findStrings>
     <replaceStrings>
       <replace>//webXDriver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);</replace>
@@ -144,9 +128,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/cucmber/stepdefs/scanStepdefs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageObjects/scanLocators.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/cucumber/stepdefs/scanStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/scan.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/test/cucumber/stepdefs/scanStepdefs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageObjects/scanLocators.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/CucumberRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageObjects/scanPageObjects.java" />
       </list>
@@ -171,8 +155,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,12 +224,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574864935500" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575025981188" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/test/cucmber/stepdefs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -306,16 +290,12 @@
       <workItem from="1574801125528" duration="2979000" />
       <workItem from="1574842472957" duration="7387000" />
       <workItem from="1574854999508" duration="9914000" />
+      <workItem from="1575020131793" duration="5702000" />
+      <workItem from="1575038713451" duration="615000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CucumberRunner - 2019.11.27 at 14h 37m 26s.xml">
-      <configuration name="CucumberRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CucumberRunner - 2019.11.27 at 14h 43m 20s.xml">
-      <configuration name="CucumberRunner" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CucumberRunner - 2019.11.27 at 14h 45m 01s.xml">
       <configuration name="CucumberRunner" configurationId="JUnit" />
     </history-entry>
@@ -340,14 +320,20 @@
     <history-entry file="CucumberRunner - 2019.11.27 at 15h 27m 05s.xml">
       <configuration name="CucumberRunner" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CucumberRunner - 2019.11.29 at 12h 04m 43s.xml">
+      <configuration name="CucumberRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CucumberRunner - 2019.11.29 at 12h 11m 36s.xml">
+      <configuration name="CucumberRunner" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39515000" />
+    <option name="totallyTimeSpent" value="45832000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14392324" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14712153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -417,31 +403,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/scanLocators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-371">
-          <caret line="10" column="110" selection-start-line="10" selection-start-column="110" selection-end-line="10" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/4.2.6/cucumber-core-4.2.6.jar!/cucumber/runner/PickleStepDefinitionMatch.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/4.2.6/cucumber-core-4.2.6.jar!/cucumber/runner/PickleStepTestStep.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/4.2.6/cucumber-core-4.2.6.jar!/cucumber/runner/TestStep.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
@@ -452,6 +417,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/4.2.6/cucumber-core-4.2.6.jar!/cucumber/runner/PickleStepDefinitionMatch.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/4.2.6/cucumber-core-4.2.6.jar!/cucumber/runner/TestStep.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/4.2.6/cucumber-core-4.2.6.jar!/cucumber/runtime/Utils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -459,32 +438,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/scan.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/cucumber/stepdefs/scanStepdefs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        <state relative-caret-position="1932">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1359#1360#0" expanded="true" />
-            <element signature="e#1424#1425#0" expanded="true" />
-            <element signature="e#1633#1634#0" expanded="true" />
-            <element signature="e#1702#1703#0" expanded="true" />
-            <element signature="e#3127#3128#0" expanded="true" />
+            <element signature="e#2597#2598#0" expanded="true" />
+            <element signature="e#2671#2672#0" expanded="true" />
+            <element signature="e#2744#2745#0" expanded="true" />
+            <element signature="e#2837#2838#0" expanded="true" />
+            <element signature="e#3539#3540#0" expanded="true" />
+            <element signature="e#3616#3617#0" expanded="true" />
+            <element signature="e#3687#3688#0" expanded="true" />
+            <element signature="e#3762#3763#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/scan.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/scanLocators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        <state relative-caret-position="138">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/CucumberRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="230">
+          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -493,12 +482,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/scanPageObjects.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="119" column="5" lean-forward="true" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
+        <state relative-caret-position="790">
+          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
           </folding>
         </state>
       </provider>
