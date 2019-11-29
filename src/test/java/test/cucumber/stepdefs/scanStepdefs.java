@@ -6,13 +6,10 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+
 import pageObjects.scanPageObjects;
 
-import java.net.MalformedURLException;
-import java.util.List;
+
 
 import static junit.framework.TestCase.assertTrue;
 
@@ -38,6 +35,7 @@ public class scanStepdefs {
 
     @After
     public void after(){
+        scanPageObjects.quit();
         scanPageObjects = null;
     }
 
@@ -104,5 +102,28 @@ public class scanStepdefs {
     public void cartShouldContainSingleItem(){
         assertTrue(scanPageObjects.checkIfCartContainsSingleItem());
     }
+
+    @When("I add {int} products to my shopping cart")
+    public void addNumberOfItems(int noProducts) {
+        scanPageObjects.addAmountOfProductsToCart(noProducts);
+    }
+
+    @Then("my shopping cart should contain {int} items")
+    public void verifyCartAmount(int noProducts){
+        assertTrue(scanPageObjects.checkCartItems(noProducts));
+
+    }
+
+    @And("my shopping cart has 2 products")
+    public void cartHas2Items(){
+        isCartEmpty();
+        scanPageObjects.addAmountOfProductsToCart(2);
+    }
+
+    @When("I remove the first product in my cart")
+    public void removeSingleProductFromCart(){
+        scanPageObjects.cartHas1Product();
+    }
+
 
 }

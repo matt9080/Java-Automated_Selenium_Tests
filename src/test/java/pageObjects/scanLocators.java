@@ -8,6 +8,7 @@ public class scanLocators {
     final String SCAN_LOGGED_IN_DASHBOARD = "https://www.scanmalta.com/newstore/customer/account/index/";
     final String SCAN_SHOPPING_CART_URL = "https://www.scanmalta.com/newstore/checkout/cart/";
     final String SCAN_PRODUCT_DETAILS_URL = "https://www.scanmalta.com/newstore/microsoft-surface-pro-7-123-win10-pro-core-i3-128gb-ssd-4gb-platinum-tablet.html";
+    final String SCAN_SEARCH_PRODUCT_URL = "https://www.scanmalta.com/newstore/catalogsearch/result/?q=apple";
 
     // IDS
     // LOGIN
@@ -30,6 +31,7 @@ public class scanLocators {
     //CLASS
     //SEARCH
     final String PRODUICT_LI_SINGLE_CLASS = "product-image";
+    final String PRODUCT_ADD_TO_CART_BUTTON_CLASS = "btn-cart";
     //PRODUCT PAGE
     final String PRODUCT_PAGE_CONTAINERR_CLASS = "product-essential";
     // MODAL

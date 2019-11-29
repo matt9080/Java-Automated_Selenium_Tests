@@ -17,23 +17,28 @@ Feature: scan
     And I select the first product in the list
     Then I should see the product details
 
-  @test
   Scenario: 4 Add product to cart
     Given I am a logged in user on the website
     And my shopping cart is empty
     When I view the details of a product
     And I choose to buy the product
     Then my shopping cart should contain 1 item
-#
-#  Scenario 5: Add multiple products to cart
-#    Given I am a logged in user on the website
-#    And my shopping cart is empty
-#    When I add <num-products> products to my shopping cart
-#    Then my shopping cart should contain <num-products> items
-#  Values for num-products: 3,5,10
-#
-#  Scenario 6: Removing a product from cart
-#    Given I am a logged in user on the website
-#    And my shopping cart has 2 products
-#    When I remove the first product in my cart
-#    Then my shopping cart should contain 1 item
+
+  @test
+  Scenario Outline: 5 Add multiple products to cart
+    Given I am a logged in user on the website
+    And my shopping cart is empty
+    When I add <num-products> products to my shopping cart
+    Then my shopping cart should contain <num-products> items
+    Examples:
+      | num-products |
+      |    3 |
+      |    5 |
+      |    10 |
+
+
+  Scenario: 6 Removing a product from cart
+    Given I am a logged in user on the website
+    And my shopping cart has 2 products
+    When I remove the first product in my cart
+    Then my shopping cart should contain 1 item
